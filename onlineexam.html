@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="onlineexam.css
+    ">
+</head>
+<body>
+        <header class="site-header">
+  <div class="header-outer">
+    <div class="header-inner">
+      <div class="logo">
+        <a href="./index.html"><img src="./images/pacafic logo.png" alt="PIEM logo"></a>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li class="nav"><a href="./about.html">About PIEM</a></li>
+          <li class="nav"><a href="./affilation.html">Affiliation</a></li>
+          <li  class="nav" ><a href="./accrediation.html">Accreditation</a></li>
+          
+        
+          <li class="nav custom-dropdown">
+  <a href="#" class="custom-dropdown-toggle">Courses▼</a>
+  <ol class="custom-dropdown-menu">
+    <li><a href="./engineering.html">Engineering programme</a></li>
+    <li><a href="./management.html">Management Programme</a></li>
+    <li><a href="#">Computer Program</a></li>
+    <li><a href="#">Hotel Management</a></li>
+    <li><a href="#">Fashion Designing</a></li>
+    <li><a href="#">ITI Programme</a></li>
+    <li><a href="#">Humanity Programme</a></li>
+    <li><a href="#">Arts Programme</a></li>
+    <li><a href="#">Commerce Programme</a></li>
+    <li><a href="#">Science Programme</a></li>
+    <li><a href="#">Education Programme</a></li>
+    <li><a href="#">Secondary Education </a></li>
+    <li><a href="#">Science</a></li>
+  </ol>
+</li>
+          <li class="nav custom-dropdown">
+  <a href="#" class="custom-dropdown-toggle">Student's Corner ▼</a>
+  <ol class="custom-dropdown-menu">
+    <li><a href="#">Online Fee Payment</a></li>
+    <li><a href="./onlineexam.html">Online Exam</a></li>
+    <li><a href="#">Results</a></li>
+  </ol>
+</li>
+   <li class="dropdown">
+      <a href="#" class="dropdown-toggle">Download ▼</a>
+      <ol class="dropdown-menu">
+        <li><a href="./files/Application.pdf">Application Form</a></li>
+        <li><a href="./files/Self-Declaration.pdf">Self-Declaration Form</a></li>
+        <li><a href="./files/Franchise.pdf">Franchise Application Form</a></li>
+      </ol>
+    </li>
+ 
+<li class="nav custom-dropdown">
+  <a href="#" class="custom-dropdown-toggle">Policies ▼</a>
+  <ol class="custom-dropdown-menu">
+    <li><a href="./admissionPolicies.html">Admission Policies</a></li>
+    <li><a href="./disclaimerPolicies.html">Disclaimer Policies</a></li>
+    <li><a href="./termsAndConditions.html">Terms & Conditions</a></li>
+  </ol>
+</li>
+
+
+
+
+         
+          <li  class="nav"><a href="./contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+ <section class="page-banner">
+      <div class="banner-overlay">
+        <h1 class="page-title">ONLINE EXAMINATION</h1>
+             <p class="breadcrumb">HOME / ONLINE EXAMINATION</p>
+
+      </div>
+    </section>
+
+    <section class="exam-section">
+  <h2 class="exam-title">Take Your Examination Online</h2>
+  <div class="exam-box">
+    <form>
+      <label for="roll">Roll Number:</label>
+      <input type="text" id="roll" placeholder="Roll Number" required>
+
+      <label for="dob">Date Of Birth:</label>
+      <input type="date" id="dob" placeholder="dd-mm-yyyy" required>
+
+      <button type="submit" class="exam-submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Left Section -->
+    <div class="footer-about">
+      <img src="./images/pacafic logo.png" alt="PIEM Logo" class="footer-logo">
+      <p>
+        Pacific Institute of Engineering and Management is an autonomous body 
+        that was established in 1995. PIEM renders a path to early success in 
+        life through its incredible Online Distance Education Programs.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>
+      </div>
+    </div>
+
+    <!-- Middle Section -->
+    <div class="footer-links">
+      <h3>QUICK LINKS</h3>
+      <ul>
+        <li><a href="#">Affiliations</a></li>
+        <li><a href="#">Online Fee</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Facebook Section -->
+    <div class="footer-facebook">
+      <h3>FACEBOOK</h3>
+      <div class="fb-box">
+        <!-- Replace with embed code -->
+        <img src="./images/facebook.jpg" alt="Facebook Embed">
+      </div>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h3>CONTACT INFO</h3>
+      <p>Pacific Institute of Engineering and Management (PIEM)<br>
+        Building No-29, Block No-5, Vikram Vihar, Lajpat Nagar-IV, New Delhi, Delhi 110024
+      </p>
+      <p>011-49401462</p>
+      <p>info@piem.ae</p>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>©COPYRIGHT, ALL RIGHTS RESERVED BY <span>Elston Infotech</span></p>
+  </div>
+</footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const dropdown = document.querySelector(".dropdown");
+  const toggle = dropdown.querySelector(".dropdown-toggle");
+
+  toggle.addEventListener("click", function (e) {
+    e.preventDefault();
+    dropdown.classList.toggle("show");
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener("click", function (e) {
+    if (!dropdown.contains(e.target)) {
+      dropdown.classList.remove("show");
+    }
+  });
+});
+  
+
+
+document.querySelectorAll('.custom-dropdown-toggle').forEach(toggle => {
+  toggle.addEventListener('click', function (e) {
+    e.preventDefault();
+    this.parentElement.classList.toggle('open');
+  });
+});
+    const header = document.querySelector('.site-header');
+
+  window.addEventListener('scroll', () => {
+    if(window.scrollY > 50) { // you can adjust this threshold
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+  document.querySelectorAll('.custom-dropdown-toggle').forEach(toggle => {
+  toggle.addEventListener('click', function (e) {
+    e.preventDefault();
+    this.parentElement.classList.toggle('open');
+  });
+});
+</script>
+</body>
+</html>

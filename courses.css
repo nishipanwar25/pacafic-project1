@@ -1,0 +1,84 @@
+/* Hero Section Styles */
+.hero-section {
+  width: 100%;
+  height: 382px; /* Adjust height as needed */
+  background: url('./images/PU_Courses.jpg') center center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section {
+  filter: brightness(1.5); /* 1 = normal, >1 = brighter, <1 = darker */
+}
+
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Dark overlay for text visibility */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.hero-content .breadcrumb {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+/* Courses Section */
+.courses-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.courses-section h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #454545;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.course-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: default;
+  transition: all 0.3s ease;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px;
+}
+
+.course-box:hover {
+
+  transform: translateY(-3px);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  background-color: #1f88c9;
+color: white;
+}
+
